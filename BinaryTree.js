@@ -50,6 +50,7 @@ class BinaryTree {
         }
     }
 
+    // Aca esta el cambio
     // Función para la búsqueda
     buscar(valor) {
         // Se inicia la búsqueda en la raíz
@@ -84,6 +85,7 @@ binaryTree.insertar(5);
 binaryTree.insertar(5);
 binaryTree.insertar(3);
 binaryTree.insertar(8);
+binaryTree.insertar(11);
 
 // Ejemplo de uso para buscar todas las coincidencias
 const coincidencias = binaryTree.buscar(8);
